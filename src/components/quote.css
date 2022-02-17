@@ -1,0 +1,73 @@
+.quote {
+    padding: 5vw;
+    background-color: rgba(176, 201, 88, 0.367);
+}
+
+.quote-title {
+    font-family: "Handlee", cursive;
+}
+
+.quote-visual {
+    height: 60%;
+}
+
+.quote-image {
+    margin-top: 2vw;
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+.quote-text {
+    margin-top: 8vw;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    color: rgb(52, 52, 52);
+    margin-bottom: 3vw;
+}
+
+.btn {
+    margin-top: 5vw;
+    background-color: rgba(107, 182, 46, 0.768);
+    border: none;
+    padding: 2vw 3vw;
+    cursor: pointer;
+}
+
+.more {
+    font-family: "Handlee", cursive;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+}
+
+a.quote-link {
+    font-family: "Handlee", cursive;
+    color: white;
+}
+
+@media (min-width: 750px) {
+    .quote-container {
+        display: flex;
+    }
+    .quote-image {
+        height: 51vh;
+        width: auto;
+    }
+    .quote-content {
+        flex: 1;
+        padding: 5vw;
+        color: rgb(90, 88, 88);
+    }
+    .quote-text {
+        margin-top: -2vh;
+        line-height: 25px;
+    }
+    .btn {
+        margin-top: -0.3vh;
+        padding: 0.5vw 1vw;
+    }
+    a.more {
+        bottom: 0;
+    }
+}
