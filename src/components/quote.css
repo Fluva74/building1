@@ -12,18 +12,20 @@
 }
 
 .quote-image {
-    margin-top: 2vw;
-    display: block;
     width: 100%;
+    height: auto;
     object-fit: cover;
 }
 
 .quote-text {
-    margin-top: 8vw;
-    font-family: "Raleway", sans-serif;
+    margin-top: 2vw;
+    font-size: 2vw;
     font-weight: 600;
-    color: rgb(52, 52, 52);
+    font-family: "Raleway", sans-serif;
     margin-bottom: 3vw;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }
 
 .btn {
@@ -50,19 +52,16 @@ a.quote-link {
     .quote-container {
         display: flex;
     }
-    .quote-image {
-        height: 70vh;
-        width: auto;
-    }
     .quote-content {
-        margin: -5vw 6vw;
+        margin: -2vw 6vw;
         flex: 1;
         padding: 5vw;
         color: rgb(90, 88, 88);
     }
     .quote-text {
+        font-size: 1.5vw;
         width: 40vw;
-        line-height: 30px;
+        line-height: 35px;
     }
     .btn {
         margin-top: -0.3vh;
