@@ -51,17 +51,18 @@ a.quote-link {
         display: flex;
     }
     .quote-image {
-        height: 51vh;
+        height: 70vh;
         width: auto;
     }
     .quote-content {
+        margin: -5vw 6vw;
         flex: 1;
         padding: 5vw;
         color: rgb(90, 88, 88);
     }
     .quote-text {
-        margin-top: -2vh;
-        line-height: 25px;
+        width: 40vw;
+        line-height: 30px;
     }
     .btn {
         margin-top: -0.3vh;

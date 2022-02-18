@@ -29,16 +29,17 @@
 }
 
 .show-card-image {
-    height: 20vh;
+    height: 30vh;
     width: auto;
     display: block;
-    object-fit: scale-down;
+    object-fit: cover;
     overflow: hidden;
 }
 
 .card-image {
-    width: 130%;
-    left: 2;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }
 
 .show-bottom {
@@ -66,12 +67,24 @@
 @media (min-width: 750px) {
     .show-container {
         display: flex;
-        flex-direction: row;
     }
     .show-card {
-        width: 30vw;
+        display: flex;
+    }
+    .show-card-image {
+        height: 17vw;
+        width: auto;
     }
     .card-title {
         font-size: 2vw;
+    }
+}
+
+@media (min-width: 750px) {
+    .show-container {
+        flex-direction: row;
+    }
+    .card-image {
+        margin-top: 0;
     }
 }
